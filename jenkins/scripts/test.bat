@@ -1,2 +1,2 @@
-timeout 5 >nul
-node_modules\.bin\mocha
+@ping -n 10 localhost> nul
+ node_modules\.bin\mocha
