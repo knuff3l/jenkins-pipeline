@@ -1,4 +1,4 @@
 
-set /p taskid= < .pidfile
-taskkill /pid "%taskid%"
+set /p taskid= < ..\..\.pidfile
+taskkill /F /pid "%taskid%"
 del ..\..\.pidfile
