@@ -9,11 +9,7 @@ pipeline {
                 bat 'npm install'
             }
         }
-        stage('Test'){
-            steps {
-                bat './jenkins/scripts/test.bat'
-            }
-        }
+
         stage('Deliver') {
                     steps {
                         bat './jenkins/scripts/deliver.bat'
