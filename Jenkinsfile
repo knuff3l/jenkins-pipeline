@@ -12,7 +12,7 @@ pipeline {
 
         stage('Run') {
                     steps {
-                        bat './jenkins/scripts/run.bat'
+                        bat 'START "" ./jenkins/scripts/run.bat'
                     }
                 }
         stage('Test'){
